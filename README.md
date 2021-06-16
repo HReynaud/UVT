@@ -13,7 +13,7 @@ As for training, the test function is called from the main.py file. An example i
 
 # Results
 The network predicts the position of the ES and ED frames in a video of arbitrary length as well as the Left Ventricle Ejection Fraction.
-![alt text](https://github.com/HReynaud/UVT/images/example.png)
+![alt results](https://github.com/HReynaud/UVT/blob/main/images/example.png)
 
 # Disclaimer
 The code in ResNetAE.py is taken from the ResNetAE repo (https://github.com/farrell236/ResNetAE) and pruned to the minimum.
