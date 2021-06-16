@@ -6,10 +6,10 @@ You will need to request access to the EchoNet dataset by completing the form on
 Once you have access to the data, download it and give the location of the "EchoNet-Dynamic" folder as an argument to the train function in main.py
 
 # Train a network
-Experiments can be launched from the main.py file. Set the parameters directly in the code file and run the file to train the network. An example is ready to launch when running main.py.
+Experiments can be launched from the [main.py](https://github.com/HReynaud/UVT/blob/main/main.py) file. Set the parameters directly in the code file and run the file to train the network. An example is ready to launch when running [main.py](https://github.com/HReynaud/UVT/blob/main/main.py).
 
 # Test a network 
-As for training, the test function is called from the main.py file. An example is ready to launch when running main.py.
+As for training, the test function is called from the [main.py](https://github.com/HReynaud/UVT/blob/main/main.py) file. An example is ready to launch when running [main.py](https://github.com/HReynaud/UVT/blob/main/main.py).
 
 # Results
 The network predicts the position of the ES and ED frames in a video of arbitrary length as well as the Left Ventricle Ejection Fraction.
