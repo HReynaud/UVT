@@ -672,7 +672,7 @@ def test(   dataset_path,
     
     dt = np.array([[es_afd, ed_afd],
                    [es_std, ed_std]])
-    df = pd.DataFrame(data=dt, columns=["ES","ED"], index=["aFD", "std"])
+    df = pd.DataFrame(data=dt, columns=["ED","ES"], index=["aFD", "std"])
     print(df)
     
     

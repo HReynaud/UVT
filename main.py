@@ -4,12 +4,12 @@ import Network
 
 if __name__ == '__main__':
 
-    dataset_path = "./data/"
+    dataset_path = "/data/hjr119/Echonet-Dynamic"
 
     Network.train(  dataset_path=dataset_path,  # path to the dataset folder containing the "Videos" foldes and "FileList.csv" file
                     num_epochs=5,               # number of epoch to train
                     device=[0],                 # "cpu" or gpu ids, ex [0] or [0,1] or [2] etc
-                    batch_size=1,               # batch size
+                    batch_size=2,               # batch size
                     seed=0,                     # random seed for reproducibility
                     run_test=False,             # run test loop after each epoch
                     lr = 1e-5,                  # learning rate
@@ -33,7 +33,7 @@ if __name__ == '__main__':
                     use_full_videos=True,       # Use full video (no preprocessing other than intensity scaling)
                     latent_dim=1024,            # embedding dimension
                     num_hidden_layers=16,       # Number of Transformers
-                    intermediate_size=8196,     # Size of the main MLP inside of the Transformers
+                    intermediate_size=8192,     # Size of the main MLP inside of the Transformers
                     model_path="./output/UVT_repeat_reg",# path of trained weight
                     device=[0]
                     )
