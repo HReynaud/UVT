@@ -1,5 +1,5 @@
 # UVT
-Ultrasound Video Transformers (UVT) for Cardiac Ejection Fraction Estimation. Code used for [add arXiv link].
+Ultrasound Video Transformers (UVT) for Cardiac Ejection Fraction Estimation. Code used for https://arxiv.org/abs/2107.00977
 
 # Before using this repo
 You will need to request access to the EchoNet dataset by completing the form on this page: https://echonet.github.io/dynamic/index.html#dataset
