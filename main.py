@@ -21,7 +21,7 @@ if __name__ == '__main__':
                     DTmode = 'repeat',          # data preprocessing method: 'repeat' (mirroring) / 'full' (entire video) / 'sample' (single heartbeat with random amounf of additional frames)
                     SDmode = 'reg',             # SD branch network type: reg (regression) or cla (classification)
                     num_hidden_layers = 16,     # Number of Transformers
-                    intermediate_size = 8196,   # size of the main MLP inside of the Transformers
+                    intermediate_size = 8192,   # size of the main MLP inside of the Transformers
                     rm_branch = None,           # select branch to not train: None, 'SD', 'EF'
                     use_conv = False,           # use convolutions instead of MLP for the regressors - worse results
                     attention_heads = 16        # number of attention heads in each Transformer
